@@ -1,0 +1,20 @@
+{
+  "name": "chai-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/setup.js"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-strict-mode": "^6.22.0",
+    "chai": "^3.5.0",
+    "jest": "^19.0.0",
+    "babel": "^6.23.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0"
+  }
+}
